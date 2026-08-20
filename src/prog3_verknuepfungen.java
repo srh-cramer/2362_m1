@@ -5,4 +5,11 @@ void main() {
     IO.println(someOtherBoolean);
     boolean example = !(5 != 5);
     IO.println(example);
+
+    String input = "";
+
+    while (!input.equals("stop")){
+        input = IO.readln("Schreibe 'stop' zum Beenden des Programms: ");
+    }
+    IO.println("Programm beendet.");
 }
